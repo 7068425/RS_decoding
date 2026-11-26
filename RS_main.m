@@ -16,3 +16,4 @@ end
 new_msg;%译码输出
 num_same = same(msg,new_msg); %译码正确个数  (比较原始发送的msg和译码后的new_msg)
 num =num_same/15;%译码正确率 (总共有5组，每组3个数据，共15个数据点)
+
